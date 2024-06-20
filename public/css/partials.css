@@ -21,3 +21,14 @@
 
 
 /*--------footer styles------*/
+.footer-top, .footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(45, 78, 224);
+    padding: 40px;
+
+}
+.footer-logo, .footer-contact, .footer-location, .footer-resources {
+    padding: 10px;
+}
