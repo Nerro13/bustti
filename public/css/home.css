@@ -1,0 +1,33 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(218, 175, 175);/*subject to change*/
+}
+/*--------home page main------*/
+.home-page-main{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;/*subject to change*/
+}
+/*------second page------*/
+.home-second-page{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 40px;
+}
+.second-page-left{
+   
+}
+.second-page-left h1{
+    font-size: 80px;
+}
+.second-page-right button{
+    background-image: url("/images/bushlogo.jfif");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    height: 200px;
+}
