@@ -17,7 +17,7 @@ body{
     display: flex;
     align-items: center;
     height: 100vh;
-    padding: 40px;
+    padding: 60px;
 }
 .second-page-left{
    
@@ -25,9 +25,83 @@ body{
 .second-page-left h1{
     font-size: 80px;
 }
-.second-page-right button{
-    background-image: url("/images/bushlogo.jfif");
-    background-size: 50%;
+
+.second-page-right{
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+
+
+
+}
+.second-page-images{
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    overflow: hidden;
+    border: 1px solid red;
+    border-radius: 20px;
+    
+}
+
+.second-page-images img{
+    height: 100%;
+    
+}
+/*----third page styles-----*/
+.third-page{
+    height: 90vh;
+    padding: 40px;
+}
+.student-life-page{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    height: 70%;
+    border: 1px solid brown;
+    gap: 20px;
+}
+.third-page-images{
+    background-image: url("../images/bushlogo.jfif");
     background-repeat: no-repeat;
-    height: 200px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+    height: 50%;
+    width: 100vw;
+    border: 1px solid yellow;
+    border-radius: 20px;
+    
+}
+.third-page-images img{
+    height: 100%;
+    width: 100%;
+}
+
+/*--------fourth page styles------*/
+.fourth-page{
+    display: flex;
+    height: 100vh;
+}
+.fourth-page-right{
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+.fourth-page-images{
+    display: flex;
+    border: 1px solid yellow;
+    padding: 10px;
+    height: 40%;
+    
 }
